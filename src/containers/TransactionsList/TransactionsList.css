@@ -1,0 +1,26 @@
+.transaction-container {
+  display: flex;
+}
+
+.transactions-list-section {
+  flex-grow: 1;
+}
+
+.transactions-list-header {
+  text-align: center;
+  font-weight: 400;
+  color: #636363;
+}
+
+.transactions-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+  .transaction-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,33 @@
+.currency-rate-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 15px;
+  min-width: 320px;
+  width: 40%;
+  height: 20%;
+  margin: 40px auto;
+  box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+}
+
+.currency-rate-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 30px;
+  color: #636363;
+}
+
+.currency-rate-label {
+  width: 70px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .currency-rate-section {
+    margin: 2.5%, auto;
+    width: 95%;
+  }
+}

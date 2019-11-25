@@ -1,0 +1,36 @@
+.transaction-wrapper {
+  display: flex;
+  width: 33%;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 250px;
+}
+
+.transaction {
+  width: 100%;
+  flex-grow: 1;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 10px 10px 12px 0 rgba(46, 60, 73, 0.05);
+}
+
+.transaction-name {
+  text-align: center;
+  color: #636363;
+  word-wrap: break-word;
+}
+
+.transaction-info {
+  margin: 10px auto;
+  font-weight: 200;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  .transaction-wrapper {
+    width: 100%;
+  }
+}
